@@ -20,12 +20,12 @@ Click the below button to watch the video tutorial on deploying
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LushaiMusic/VCMusicPlayer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hydravigguyt/hydraradiobotv3)
 
 ### Deploy to VPS
 
 ```sh
-git clone https://github.com/LushaiMusic/VCMusicPlayer
+git clone https:https://github.com/Hydravigguyt/hydraradiobotv3
 cd VCMusicPlayer
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -97,6 +97,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 ## Credits
 
-- [Zaute Km](https://github.com/Zaute-Km) [Dev]
+- [Hydra Tg](https://github.com/Hydravigguyt/hydraradiobotv3) [Dev]
 - [Dash Eclipse](https://github.com/dashezup) [For tgvc_userbot]
-- [Marshal X](https://github.com/MarshalX) [For pytgcalls]
+- [Soman xxx](https://github.com/MarshalX) [For pytgcalls]

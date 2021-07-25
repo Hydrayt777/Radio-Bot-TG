@@ -20,27 +20,27 @@ playlist=Config.playlist
 
 HELP = """
 **User Commands:**
-▷/play **[song name]/[yt link]**: Reply to an audio file.
-▷/dplay **[song name]:** Play music from Deezer.
-▷/player:  Show current playing song.
-▷/help: Show help for commands.
-▷/playlist: Shows the playlist.
+▷/play **[song name]/[yt link]**: ⚡Reply to an audio file.
+▷/dplay **[song name]:** ⚡Play music from Deezer.
+▷/player:  ⚡Show current playing song.
+▷/help: ⚡Show help for commands.
+▷/playlist: ⚡Shows the playlist.
 
 **Admin Commands:**
-▷/skip **[n]** ...  Skip current or n where n >= 2
-▷/join: Join voice chat.
-▷/leave: Leave current voice chat
-▷/vc: Check which VC is joined.
-▷/stop: Stop playing.
-▷/radio: Start Radio.
-▷/stopradio: Stops Radio Stream.
-▷/replay: Play from the beginning.
-▷/clean: Remove unused RAW PCM files.
-▷/pause: Pause playing.
-▷/resume: Resume playing.
-▷/mute: Mute in VC.
-▷/unmute: Unmute in VC.
-▷/restart: Restarts the Bot.
+▷/skip **[n]** ...  ⚡Skip current or n where n >= 2
+▷/join: ⚡Join voice chat.
+▷/leave: ⚡Leave current voice chat
+▷/vc: ⚡Check which VC is joined.
+▷/stop: ⚡Stop playing.
+▷/radio: ⚡Start Radio.
+▷/stopradio: ⚡Stops Radio Stream.
+▷/replay: ⚡Play from the beginning.
+▷/clean: ⚡Remove unused RAW PCM files.
+▷/pause: ⚡Pause playing.
+▷/resume: ⚡Resume playing.
+▷/mute: ⚡Mute in VC.
+▷/unmute: ⚡Unmute in VC.
+▷/restart: ⚡Restarts the Bot.
 """
 
 
@@ -153,11 +153,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+                InlineKeyboardButton("🔥 Source Code 🔥", url='https:https://github.com/Hydravigguyt/hydraradiobotv3'),
             ],
             [
-               InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-               InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+               InlineKeyboardButton('👥 Join My Group', url='https://t.me/Tg_Hydra_Music_world'),
+               InlineKeyboardButton('My Channel 📢', url='https://t.me/Tg_Hydra_Music_world'),
             ],
             [
                InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/1481808444/131'),

@@ -25,30 +25,30 @@ import sys
 U=USERNAME
 CHAT=Config.CHAT
 msg=Config.msg
-HOME_TEXT = "<b>Hello, [{}](tg://user?id={})\n\nI am 24×7 Non Stop Radio/Music Player.\n\nHits /help for more details...</b>"
+HOME_TEXT = "<b>Hello Bro Pever aayo 😁🔥, [{}](tg://user?id={})\n\nI am 24×7 Non Stop Radio/Music Player.\n\nHits /help for more details...</b>"
 HELP = """
 **User Commands:**
-▷/play **[song name]/[yt link]**: Reply to an audio file.
-▷/dplay **[song name]:** Play music from Deezer.
-▷/player:  Show current playing song.
-▷/help: Show help for commands.
-▷/playlist: Shows the playlist.
+▷/play **[song name]/[yt link]**: ⚡Reply to an audio file.
+▷/dplay **[song name]:** ⚡Play music from Deezer.
+▷/player:  ⚡Show current playing song.
+▷/help: ⚡Show help for commands.
+▷/playlist: ⚡Shows the playlist.
 
 **Admin Commands:**
-▷/skip **[n]** ...  Skip current or n where n >= 2
-▷/join: Join voice chat.
-▷/leave: Leave current voice chat
-▷/vc: Check which VC is joined.
-▷/stop: Stop playing.
-▷/radio: Start Radio.
-▷/stopradio: Stops Radio Stream.
-▷/replay: Play from the beginning.
-▷/clean: Remove unused RAW PCM files.
-▷/pause: Pause playing.
-▷/resume: Resume playing.
-▷/mute: Mute in VC.
-▷/unmute: Unmute in VC.
-▷/restart: Restarts the Bot.
+▷/skip **[n]** ...  ⚡Skip current or n where n >= 2
+▷/join: ⚡Join voice chat.
+▷/leave: ⚡Leave current voice chat
+▷/vc: ⚡Check which VC is joined.
+▷/stop: ⚡Stop playing.
+▷/radio: ⚡Start Radio.
+▷/stopradio: ⚡Stops Radio Stream.
+▷/replay: ⚡Play from the beginning.
+▷/clean: ⚡Remove unused RAW PCM files.
+▷/pause: ⚡Pause playing.
+▷/resume: ⚡Resume playing.
+▷/mute: ⚡Mute in VC.
+▷/unmute: ⚡Unmute in VC.
+▷/restart: ⚡Restarts the Bot.
 """
 
 
@@ -57,14 +57,14 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+        InlineKeyboardButton("💠 Source Code 💠", url='https://github.com/Hydravigguyt/hydraradiobotv3'),
     ],
     [
-        InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-        InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+        InlineKeyboardButton('😁 My Group 👀', url='https://t.me/Tg_Hydra_Music_world'),
+        InlineKeyboardButton('My Channel 📢', url='https://t.me/Tg_Hydra_Music_world'),
     ],
     [
-        InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help'),
+        InlineKeyboardButton('⭕ Help & Commands ⭕', callback_data='help'),
 
     ]
     ]
@@ -78,14 +78,14 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+            InlineKeyboardButton("⚡ Source Code ⚡", url='https://github.com/Hydravigguyt/hydraradiobotv3'),
         ],
         [
-            InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+            InlineKeyboardButton('👥 My Group', url='https://t.me/Tg_Hydra_Music_world'),
+            InlineKeyboardButton('My Channel 📢', url='https://t.me/Tg_Hydra_Music_world'),
         ],
         [
-            InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/1481808444/131'),
+            InlineKeyboardButton('💠 How to Deploy 💠', url='https://t.me/c/1481808444/131'),
         
         ]
     ]

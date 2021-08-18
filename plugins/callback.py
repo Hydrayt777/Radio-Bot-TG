@@ -153,14 +153,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("🔥 Source Code 🔥", url='https:https://github.com/Hydravigguyt/hydraradiobotv3'),
+                InlineKeyboardButton("🔥 My Group 🔥", url='https:https:https://t.me/Tg_Hydra_Galaxy'),
             ],
             [
-               InlineKeyboardButton('👥 Join My Group', url='https://t.me/Tg_Hydra_Music_world'),
-               InlineKeyboardButton('My Channel 📢', url='https://t.me/Tg_Hydra_Music_world'),
+               InlineKeyboardButton('👥 Join My Group', url='https://t.me/Tg_Hydra_Galaxy'),
+               InlineKeyboardButton('My Channel 📢', url='https://t.me/Tg_Hydra_Galaxy'),
             ],
             [
-               InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/1481808444/131'),
+               InlineKeyboardButton('💠 Click here 💠', url='https://t.me/Tg_Hydra_Galaxy'),
         
             ]
         ]

@@ -57,11 +57,11 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("💠 Source Code 💠", url='https://github.com/Hydravigguyt/hydraradiobotv3'),
+        InlineKeyboardButton("🔥 Source Code 🔥", url='https://t.me/Tg_Hydra_Galaxy'),
     ],
     [
-        InlineKeyboardButton('😁 My Group 👀', url='https://t.me/Tg_Hydra_Music_world'),
-        InlineKeyboardButton('My Channel 📢', url='https://t.me/Tg_Hydra_Music_world'),
+        InlineKeyboardButton('😁 My Group 👀', url='https://t.me/Tg_Hydra_Galaxy'),
+        InlineKeyboardButton('My Channel 📢', url='https://t.me/Tg_Hydra_Galaxy'),
     ],
     [
         InlineKeyboardButton('⭕ Help & Commands ⭕', callback_data='help'),
@@ -78,14 +78,14 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton("⚡ Source Code ⚡", url='https://github.com/Hydravigguyt/hydraradiobotv3'),
+            InlineKeyboardButton("⚡ Source Code ⚡", url='https://t.me/Tg_Hydra_Galaxy'),
         ],
         [
             InlineKeyboardButton('👥 My Group', url='https://t.me/Tg_Hydra_Music_world'),
             InlineKeyboardButton('My Channel 📢', url='https://t.me/Tg_Hydra_Music_world'),
         ],
         [
-            InlineKeyboardButton('💠 How to Deploy 💠', url='https://t.me/c/1481808444/131'),
+            InlineKeyboardButton('💠 Click here 💠', url='https://t.me/Tg_Hydra_Galaxy'),
         
         ]
     ]

@@ -20,7 +20,7 @@ Click the below button to watch the video tutorial on deploying
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)])
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://t.me/Tg_Hydra_Galaxy)
 
 ### Deploy to VPS
 

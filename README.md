@@ -20,7 +20,7 @@ Click the below button to watch the video tutorial on deploying
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hydravigguyt/hydraradiobotv3)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)])
 
 ### Deploy to VPS
 
